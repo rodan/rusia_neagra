@@ -1,0 +1,13 @@
+
+*.GBL   bottom layer
+*.GTL   top layer
+*.GBO   silk bottom
+*.GTO   silk top
+*.GBS   solder mask bottom
+*.GTS   solder mask top
+*.TXT   drills & holes
+*.GML   slot drills / milling - IGNORE
+*.GBP   solder paste botton - IGNORE
+*.GTP   solder paste top - IGNORE
+
+
