@@ -13441,7 +13441,7 @@ general purpose rectifier, 1 A</description>
 </parts>
 <sheets>
 <sheet>
-<description>Rusia Neagra MKII power pcb</description>
+<description>Power Assy - negative bipolar</description>
 <plain>
 <text x="355.6" y="10.16" size="3.81" layer="97">01</text>
 <text x="48.26" y="73.66" size="1.27" layer="97" rot="MR180">[orange]</text>

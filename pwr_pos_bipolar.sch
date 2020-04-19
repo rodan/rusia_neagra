@@ -7151,9 +7151,9 @@ general purpose rectifier, 1 A</description>
 <part name="F4" library="fuse" deviceset="FUSE" device="SH35"/>
 <part name="B1" library="Simplex-DiscreteSemi" deviceset="DIOTEC_BC5000" device="" value="B250C5000"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="0922V" value="30K/3W"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0411/12" value="10k"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="0411/12" value="DNP1"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="0411/12" value="DNP2"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0411/12" value="22k"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="0411/12" value="2M2"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="0411/12" value="22k"/>
 <part name="U$1" library="Simplex-Heatsinks" deviceset="SK456-60-3XM3L" device=""/>
 <part name="U$2" library="Simplex-Enclosures" deviceset="RN_POWER" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -7161,18 +7161,18 @@ general purpose rectifier, 1 A</description>
 <part name="U$4" library="Simplex-Connectors" deviceset="M1" device=""/>
 <part name="U$5" library="Simplex-Connectors" deviceset="M1" device=""/>
 <part name="U$6" library="Simplex-Connectors" deviceset="M1" device=""/>
-<part name="T2" library="transistor" deviceset="*-NPN-" device="TO220V"/>
+<part name="T2" library="transistor" deviceset="*-NPN-" device="TO220V" value="BUX85"/>
 <part name="D1" library="diode" deviceset="1N4004" device=""/>
 <part name="U$7" library="Simplex-rlc" deviceset="NICHICON_SNAPIN" device="Ø20"/>
 <part name="U$8" library="Simplex-rlc" deviceset="NICHICON_SNAPIN" device="Ø20"/>
 <part name="U$9" library="Simplex-rlc" deviceset="NICHICON_SNAPIN" device="Ø20"/>
 <part name="U$10" library="Simplex-rlc" deviceset="NICHICON_SNAPIN" device="Ø20"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0411/12" value="DNP3"/>
-<part name="U$11" library="Simplex-DiscreteSemi" deviceset="NPN-POWER" device=""/>
+<part name="U$11" library="Simplex-DiscreteSemi" deviceset="NPN-POWER" device="" value="ST13007"/>
 </parts>
 <sheets>
 <sheet>
-<description>Rusia Neagra MKII power pcb</description>
+<description>Power Assy - Positive bipolar</description>
 <plain>
 <text x="355.6" y="10.16" size="3.81" layer="97">01</text>
 <text x="48.26" y="73.66" size="1.27" layer="97" rot="MR180">[orange]</text>
@@ -7352,17 +7352,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="U$10" gate="G$1" pin="-"/>
 </segment>
 </net>
-</nets>
-</sheet>
-<sheet>
-<description>Rusia Neagra MKII main point to point</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
 </nets>
 </sheet>
 </sheets>
