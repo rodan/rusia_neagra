@@ -7151,7 +7151,7 @@ general purpose rectifier, 1 A</description>
 <part name="F4" library="fuse" deviceset="FUSE" device="SH35"/>
 <part name="B1" library="Simplex-DiscreteSemi" deviceset="DIOTEC_BC5000" device="" value="B250C5000"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="0922V" value="30K/3W"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0411/12" value="22k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0411/12" value="47k"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0411/12" value="2M2"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="0411/12" value="22k"/>
 <part name="U$1" library="Simplex-Heatsinks" deviceset="SK456-60-3XM3L" device=""/>

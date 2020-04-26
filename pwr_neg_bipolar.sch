@@ -13422,7 +13422,7 @@ general purpose rectifier, 1 A</description>
 <part name="B1" library="Simplex-DiscreteSemi" deviceset="DIOTEC_BC5000" device="" value="B250C5000"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="0922V" value="3K/3W"/>
 <part name="T1" library="transistor" deviceset="*-PNP-" device="TOP3V" value="2SA1943"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0411/12" value="10k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0411/12" value="3k3"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0411/12" value="DNP1"/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="E7.5-16" value="1000uF 63V"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="0411/12" value="2k"/>
